@@ -16,8 +16,4 @@
 
 ## END CERN SSO
 
-## Tell Apache this is the web index
-##
-# Put below the path to your index.php (starting from the server root)
-# eg /musella/higgs/index.php
-DirectoryIndex index.php index.html index.htm /<me>/<my-project>/index.php
+Options +Indexes
